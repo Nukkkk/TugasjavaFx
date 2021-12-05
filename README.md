@@ -27,17 +27,17 @@ public class JavaFX extends Application  {
         vert.setSpacing(8);
         vert.setPadding(new Insets(12,12,12,12));
         vert.getChildren().addAll(
-                new Label("First Name "),
+                new Label("Nama Awal "),
                 new TextField(),
-                new Label("Last Name "),
+                new Label("Nama Akhir "),
                 new TextField(),
-                new Label("E-Mail Adress "),
+                new Label("E-Mail "),
                 new TextField(),
-                new Label("Contact No "),
+                new Label("No. telepon "),
                 new TextField(),
                 new Label("Password"),
                 new PasswordField(),
-                new Label("Confirm  Password"),
+                new Label("Ulangi  Password"),
                 new PasswordField(),
                 new Button("Selesai"));
         root.getChildren().addAll(vert);
